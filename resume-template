@@ -1,0 +1,189 @@
+%-------------------------
+% Resume in Latex
+% Author : Bathini Teja Goud
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% \usepackage[sfdefault]{roboto}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-8pt}} % Adjusted vertical space after section
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}} % Adjusted vertical space after item list
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\begin{center}
+    {\Huge \scshape Bathini Teja Goud} \\ \vspace{8pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 8247359710 ~ \href{mailto:tgoud00@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{tgoud00@gmail.com}} ~
+    \href{https://www.linkedin.com/in/teja-goud-a02195275/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/teja-goud-a02195275}} ~
+    \href{https://github.com/tejagoud0}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/tejagoud0}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rajiv Gandhi University of Knowledge Technologies, Basar}{2021 -- 2025}
+      {Bachelor of Technology in Electronics and Communication Engineering}{CGPA: 7.5/10.0}
+    \resumeSubheading
+      {Rajiv Gandhi University of Knowledge Technologies, Basar}{2019 -- 2021}
+      {Pre-University Course}{CGPA: 8.4/10.0}
+    \resumeSubheading
+      {ZPHS NARMETTA}{2018 -- 2019}
+      {Secondary School of Education}{GPA: 10.0/10.0}
+  \resumeSubHeadingListEnd
+
+%-----------RELEVANT COURSEWORK-----------
+\section{Relevant Coursework}
+  \resumeSubHeadingListStart
+    \resumeItem{Database Management Systems, Operating System, Algorithms, Intro to C-Programming, Object-Oriented Programming, Data Structures and Algorithms}
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+  \resumeSubHeadingListStart
+    \resumeItem{Programming in Java course with a consolidated score of 70\% (ELITE) at NPTEL, 2024}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills and Interests}
+  \resumeSubHeadingListStart
+    \resumeItem{Languages: C, Java, OOPS, SQL, Python, JavaScript (beginner), HTML/CSS}
+    \resumeItem{Tools: Git, VS Code}
+    \resumeItem{Frameworks: ReactJs, Bootstrap}
+    \resumeItem{Soft Skills: Problem solving, Multi-tasking, Adaptability, Team management}
+    \resumeItem{Others: Data Structures, Algorithms, Databases, RDBMS-MySQL, Operating System}
+  \resumeSubHeadingListEnd
+
+
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{E-Commerce (MERN STACK)}}{2024}
+      \resumeItemListStart
+        \resumeItem{Developed an e-commerce platform with an intuitive admin panel allowing easy addition and deletion of products. Implemented user-friendly features empowering administrators to efficiently manage the website's product inventory.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Peach \& Owl Service Prototype (HTML, CSS, Bootstrap, JS)}}{2023}
+      \resumeItemListStart
+        \resumeItem{Created a service prototype for Peach \& Owl, offering 3D printing services, PCB printing, MATLAB simulations, and Python simulations. Developed an intuitive interface enabling users to request services. \href{https://peachandowl.000webhostapp.com/}{Link}}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------LANGUAGES-----------
+\section{Languages}
+  \resumeSubHeadingListStart
+    \resumeItem{Telugu, English, Hindi}
+  \resumeSubHeadingListEnd
+
+\end{document}
